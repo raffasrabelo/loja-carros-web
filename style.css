@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    
+    .veiculos {
+        display: block;
+        font-size: 16px;
+        color: #b2b2b2;
+        text-align: left;
+        place-self: center;
+        width: 550px;
+        
+    }
+    
+    .div_veiculo{
+        border-radius: 4px;
+        padding: 30px;
+        padding-top: 1%;
+        padding-right: 250px;
+        margin: 20px;
+        background-color: #111;
+    } 
+    
+    .div_veiculo h2{
+        padding: 0;
+        color: white;
+    }
+   .div_veiculo span{
+        display: inline;
+        color: #febe01;
+        font-weight:bold;
+    }
+    
+   .div_veiculo button{
+        border: none;
+        background-color: #febe01;
+        color: #332200;
+        font-weight: 500;
+        border-radius: 4px;
+        font-size: 1em;
+        padding: 5%;
+        cursor: pointer;
+    }
